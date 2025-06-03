@@ -54,7 +54,7 @@
       </a-assets>
 
       <!-- استفاده از مارکر دلخواه با pattern فایل -->
-      <a-marker type="pattern" url="pattern-marker.patt">
+      <a-marker type="pattern" url="pattern-qrcode.patt">
         <a-entity id="product" gltf-model="#model1" position="0 0 0" scale="1 1 1"></a-entity>
       </a-marker>
 
@@ -63,7 +63,7 @@
 
     <script>
       const models = ["#model1", "#model2"];
-      const prices = ["100/000 تومان", "۲۰۰,۰۰۰ تومان"];
+      const prices = ["100/000 تومان", "200/000 تومان"];
       let current = 0;
 
       function updateModel() {
